@@ -1,0 +1,100 @@
+HTML5: s la quinta revisión del lenguaje de marcado estándar para la creación de páginas web, el HTML (HyperText Markup Language). Introduce nuevas características y mejoras para crear contenido web más dinámico, interactivo y multimedia.
+ESTRUCTURA:HTML5 introduce una estructura más clara y semántica para el marcado de páginas web. Esto incluye elementos como <header>, <nav>, <section>, <article>, <footer>, entre otros, que facilitan la organización y comprensión del contenido.
+
+Semantica de HTML
+ <header>: Define la cabecera de la página o de una sección. Por lo general, incluye elementos como el logotipo, el título principal de la página o enlaces de navegación.
+
+<nav>: Define una sección de navegación. Se utiliza para agrupar enlaces de navegación principal.
+
+<section>: Define una sección genérica de contenido en un documento. Puede contener uno o más elementos como <article>, <header>, <footer>, entre otros.
+
+<article>: Define un contenido independiente que puede ser distribuido y reutilizado de forma independiente del resto del contenido. Por ejemplo, un artículo de un blog o una noticia.
+
+<footer>: Define el pie de página de la página o de una sección. Suele contener información de copyright, enlaces a políticas de privacidad, información de contacto, entre otros. 
+
+Etiquetas básicas: Las etiquetas básicas en HTML incluyen elementos como <html>, <head>, <title>, <body>, que proporcionan la estructura básica de un documento HTML.
+
+Enlaces: Los enlaces se crean utilizando la etiqueta <a>, permitiendo a los usuarios navegar a otras páginas web, secciones dentro de la misma página o descargar archivos.
+
+Imágenes y multimedia: HTML5 ofrece etiquetas como <img> para insertar imágenes y <video> y <audio> para incorporar contenido multimedia en una página web, permitiendo la reproducción nativa de archivos de audio y video sin necesidad de complementos externos como Flash.
+
+Listas: HTML proporciona etiquetas para crear listas ordenadas <ol>, listas no ordenadas <ul>, y listas de definición <dl>.
+
+Tablas: Las tablas se crean utilizando la etiqueta <table>, con <tr> para las filas, <td> para las celdas de datos y <th> para las celdas de encabezado.
+
+Formularios: HTML5 ofrece una amplia gama de elementos para crear formularios interactivos, como <input>, <textarea>, <select>, <button>, que permiten a los usuarios enviar datos al servidor web.
+
+
+Etiquetas:
+
+
+<a href="direccion ad onde se redirige">muestra el visual del link</a> enlace  
+<a href=""> es un atributo target="_blank" abre en uina nueva pestaña
+etiquetas que se habren y se cierran 
+<h1>  etiqueta de apertura
+contenido
+</h1> etiqueta de cierr 
+cambiar el tamaño de texto heading 1 hasta 6
+<p></p> parrafo 
+
+<br> etiqueta que solo se abre,salto de linea 
+
+<img src="nombre archivo/enlace web" alt="descripcion imagen "  se puede editar dentro con width="ancho" height="altura"> insertar imagenes de varios tipo ////
+
+<link rel="stylesheet" href="">   
+
+ <hr>linea horizontal para sepaar texto 
+
+        div: sirve para agrear cosas dentro de otras cajon para los estilos
+        main:
+        header:cabezera
+        footer:pie pagina
+        section:
+        article.
+
+
+
+
+
+
+
+CSS básico:
+
+Selectores: Los selectores en CSS son patrones que se utilizan para seleccionar elementos
+         HTML a los que se les aplicarán estilos. Pueden ser selectores de etiqueta, clase, ID, 
+        atributo, entre otros.
+Colores: CSS permite especificar colores utilizando nombres predefinidos, valores
+         hexadecimales, valores RGB o RGBA, valores HSL o HSLA, entre otros.
+Medidas: Se pueden especificar medidas en CSS utilizando unidades como píxeles (px), 
+        porcentajes (%), em (relativo al tamaño del elemento padre), rem (relativo al tamaño 
+        del elemento raíz), entre otros.
+Tipografías: CSS permite controlar la apariencia del texto, como el tipo de fuente,
+         tamaño, estilo, espaciado y alineación, entre otros.
+
+Selectores múltiples, herencia y especificidad:
+
+    Selectores múltiples: Permiten aplicar estilos a varios elementos al mismo 
+            tiempo, separando los selectores con comas.
+    Herencia: Los estilos aplicados a un elemento pueden heredarse por sus 
+            elementos hijos, a menos que se especifique lo contrario.
+    Especificidad: Es un sistema que determina qué reglas CSS se aplicarán cuando 
+            hay conflictos entre ellas. La especificidad se basa en la combinación de selectores utilizados para aplicar estilos a un elemento.
+Modelo de caja:
+
+        En CSS, cada elemento HTML se representa como una caja rectangular que consta de 
+        contenido, padding, border y margin. El modelo de caja describe cómo se calculan 
+        las dimensiones y la posición de cada una de estas partes.
+        Control de visualización de elementos:
+
+        CSS proporciona propiedades para controlar la visibilidad y el flujo de los 
+        elementos en una página web. Esto incluye propiedades como display, visibility,
+         overflow, entre otras.
+        Posicionamiento clásico:
+
+            El posicionamiento clásico en CSS se refiere a la forma en que los elementos 
+            se colocan dentro del flujo normal del documento. Esto incluye los valores de 
+            la propiedad position (como static, relative, absolute, fixed), así como 
+            propiedades como top, bottom, left y right para controlar la posición de los 
+            elementos posicionados.
+
+

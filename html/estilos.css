@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(3, 3, 134);
+}
+div h2{
+    color: rgb(20, 173, 122);
+}
+/* ids y clases */
+
+/* id son unicos por elemento*/
+/*  clases son repetibles */
+#parraf1 {/*ids*/
+    color: red;
+    font-size: 25px; /*tamaño letra*/
+    font-weight: bold; /* peso del texto*/
+}
+.parrafos{/*clases*/
+    color: blueviolet;
+    font-style: italic;
+}
+a,img{
+    display: block;/*permite que se separen por bloques*/
+}
+a{
+    margin: 50px 20px;/*dos valores de lado y abjao*/
+    text-decoration: none;
+    color: black;
+}
+a:hover{/*cunadi se pasa por encima del link*/
+    color: brown;
+    text-decoration: none;
+}
+img{
+    width: 70%;
+    margin: auto;
+}
