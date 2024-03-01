@@ -178,7 +178,7 @@ button:hover{
 #sobre a:hover{
     color: #fdfdfd;
     background-color: #f30606 ;
-
+    transition: color 0.5s;
     border-radius:40px;
     display: flex;
     flex-direction: column;
@@ -205,7 +205,7 @@ button:hover{
 #contact a:hover{
     color: #fdfdfd;
     background-color: #f30606 ;
-
+    transition: color 0.5s;
     border-radius:40px;
     display: flex;
     flex-direction: column;
@@ -236,7 +236,7 @@ button:hover{
 #proyects a:hover{
     color: #fdfdfd;
     background-color: #f30606 ;
-
+    transition: color 0.5s;
     border-radius:40px;
     display: flex;
     flex-direction: column;
@@ -393,8 +393,25 @@ button:hover{
     color: #0a0a23;
     background-color: #abaaaa;
     border-radius:5px;
+    transition: color 0.5s;
 }
+.provenir a
+{
+  font-size: 3vw;
+  position: absolute;
+  bottom: 40%;
+  left: 40%;
+  color: #fdfdfd;
+  cursor: pointer;
 
+}
+.provenir a:hover
+{
+  background-color: #741b47;
+  border-radius:10px;
+  color: #0a0a23;
+  transition: color 0.5s;
+}
 
 
 

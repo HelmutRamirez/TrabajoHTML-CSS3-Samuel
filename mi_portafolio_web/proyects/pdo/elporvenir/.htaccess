@@ -1,0 +1,14 @@
+RewriteEngine On
+Options All -Indexes
+
+<files hola.php>
+order allow,deny
+deny from all
+</files>
+
+RewriteRule ^([a-zA-z0-9/]+)$ index.php?views=$1
+
+ErrorDocument 404 /elporvenir/noencontrado.php
+
+ErrorDocument 403 /elporvenir/sinacceso.php
+

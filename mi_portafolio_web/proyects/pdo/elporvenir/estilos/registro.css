@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+body
+{
+    width: 100%;
+    height: 100%;
+   
+    background: linear-gradient(27deg,#34495e 50%,#2c3e50 50%);
+}
+
+section
+{
+    width: 90%;
+  
+    padding: 20px;
+    
+    margin: auto;
+    
+    text-align: center;
+}
+nav
+
+{
+    width: 50%;
+    
+    margin: auto;
+    padding-top: 52px;
+    text-align: left;
+    background-image: url('../imgs/36866-claros.jpg');
+    
+    border: 10px solid rgba(2, 1, 0, .3);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+    
+}
+.editar
+{
+    text-align: center;
+   
+
+}
+.editar label
+{
+    text-align: left;
+    
+}
+
+button{
+    float: center;
+    display: block;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 20%;
+    background: transparent;
+    color: white;
+    border-radius: 2px;
+    border: 2px solid #3498db;;
+    cursor: pointer;
+    outline: none;
+    transition: all 5.s ease;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+button:hover{
+    color: aliceblue;
+    border: 2px solid #3498db;
+    background: linear-gradient(#34495e,#2c3e50);
+}
+input
+{
+   
+    border-radius: 50px;
+ 
+}
+select{
+    border-radius: 50px;
+}
+.papaya{
+    background-color: azure;
+}
+.actualiza a{
+    float: center;
+    display: block;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 20%;
+    background: transparent;
+    color: white;
+    border-radius: 2px;
+    border: 2px solid #3498db;;
+    cursor: pointer;
+    outline: none;
+    transition: all 5.s ease;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-decoration: none;
+}
+label{
+    color: aliceblue;
+    
+}
